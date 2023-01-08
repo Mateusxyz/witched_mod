@@ -2,5 +2,6 @@
     "item.witched.meu_item":"Anotações Póstumas",
     "item.witched.chalice":"Knowledge Chalice",
     "item.witched.empty_chalice":"Knowledge Chalice (Empty)",
-    "itemGroup.witched.test_group":"Witched"
+    "itemGroup.witched.test_group":"Witched",
+    "text.witched.chalice": "You feel Stronger!"
 }

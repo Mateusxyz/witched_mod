@@ -1,6 +1,7 @@
-package net.fabricmc.witched.item;
+package net.fabricmc.witched.item.custom;
 
 
+import net.fabricmc.witched.item.ModItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -24,11 +25,11 @@ public class ChaliceItem extends HoneyBottleItem {
             ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity)user;
             Criteria.CONSUME_ITEM.trigger(serverPlayerEntity, stack);
             serverPlayerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
-            user.sendMessage(Text.of("You feel stronger."));
+            user.sendMessage(Text.translatable("text.witched.chalice"));
             if (this.isFood()) {
                 user.eatFood(world, stack);
             }
-            ItemStack itemStack = new ItemStack(Mod_items.empty_chalice_item);
+            ItemStack itemStack = new ItemStack(ModItems.emptyChaliceItem);
             PlayerEntity playerEntity = (PlayerEntity)user;
             if (!playerEntity.getInventory().insertStack(itemStack)) {
                 playerEntity.dropItem(itemStack, false);

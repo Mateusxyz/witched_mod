@@ -1,7 +1,7 @@
 package net.fabricmc.witched;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.witched.item.Mod_items;
+import net.fabricmc.witched.item.ModItems;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,7 +20,7 @@ public class Witched implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		LOGGER.info("Starting Witched.");
-		Mod_items.register_items();
+		ModItems.registerItems();
 		
 	}
 }
