@@ -1,0 +1,20 @@
+{
+    "name": "Capítulo 1",
+    "icon": "minecraft:writable_book",
+    "category": "witched:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Silêncio. A noite era silenciosa, apenas a sinfonia do tilintar dos artefatos que carregava fazia barulho, destemido à luz da lua minguante, caminhando, a vila está quieta, todos dormem tão tarde da noite, menos os amaldiçoados."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Em sua mão carrega um crânio de lobo, que leva até sua boca e sopra, um uivo estridente saí, transformaria a coragem de um humano normal em medo, transformaria um amaldiçoado em lobisomem."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:acacia_planks",
+            "text": "Crânio de lobo, pode te deixar atordoado"
+        }
+    ]
+}

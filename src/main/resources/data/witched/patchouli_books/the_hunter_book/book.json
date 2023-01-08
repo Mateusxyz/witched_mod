@@ -1,0 +1,9 @@
+{
+    "name": "O Caçador",
+    "landing_text": "Relatos sobre a jornada de um caçador de lobisomem amaldiçoado.",
+    "version": 1,
+    "pamphlet": true,
+    "show_progress": false,
+    "use_blocky_font": true,
+    "model": "witched:the_hunter_book"
+}
