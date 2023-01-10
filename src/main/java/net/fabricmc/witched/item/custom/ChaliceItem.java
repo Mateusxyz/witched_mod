@@ -29,7 +29,7 @@ public class ChaliceItem extends HoneyBottleItem {
             if (this.isFood()) {
                 user.eatFood(world, stack);
             }
-            ItemStack itemStack = new ItemStack(ModItems.emptyChaliceItem);
+            ItemStack itemStack = new ItemStack(ModItems.EMPTY_CHALICE);
             PlayerEntity playerEntity = (PlayerEntity)user;
             if (!playerEntity.getInventory().insertStack(itemStack)) {
                 playerEntity.dropItem(itemStack, false);
