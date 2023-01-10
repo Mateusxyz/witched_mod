@@ -5,16 +5,24 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Silêncio. A noite era silenciosa, apenas a sinfonia do tilintar dos artefatos que carregava fazia barulho, destemido à luz da lua minguante, caminhando, a vila está quieta, todos dormem tão tarde da noite, menos os amaldiçoados."
+            "text": "Enquanto a noite caia, em um vila pacata, um homem que usava uma roupa longa de couro e um chapéu que escondia sua feição, caminhava silenciosamente entre as ruas"
         },
         {
             "type": "patchouli:text",
-            "text": "Em sua mão carrega um crânio de lobo, que leva até sua boca e sopra, um uivo estridente saí, transformaria a coragem de um humano normal em medo, transformaria um amaldiçoado em lobisomem."
+            "text": "O unico som que se podia ouvir nesta noite calma, era a sinfonia do tilindar dos artefatos e acessórios que este homem carregava, a vila permanecia quieta e todos dormiam profundamente, menos os amaldiçoados..."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Nás mãos do homem misterioso, havia um crânio de um lobo que morrera jovem, o homem suavemente leva este crânio para a frente de sua vista, o encara por alguns segundos, por fim o leva a sua boca e o sopra"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Um uivo estridente sai dos buracos feitos a força na parte traseira do Crânio, este som gerado, transformaria a coragem do Homem mais corajoso em um terror, que congelaria sua espinha e o faria tremular as mãos, transformaria um amaldiçoado em Lobisomem."
         },
         {
             "type": "patchouli:crafting",
             "recipe": "minecraft:acacia_planks",
-            "text": "Crânio de lobo, pode te deixar atordoado"
+            "text": "Aviso: O som do crânio de Lobo, pode lhe causar Atordoamento."
         }
     ]
 }
